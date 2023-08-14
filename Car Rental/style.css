@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(84, 9, 112);
+    font-family: cursive;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    row-gap: 50px;
+}
+.car-rental{
+    font-size: 25px;
+    color: antiquewhite;
+}
+input,
+select,
+button{
+    padding: 12px 18px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    font-family: cursive;
+}
+button:hover{
+    color: rgb(235, 231, 238);
+    background-color: blueviolet;
+    font-weight: 400;
+    cursor: pointer;
+}
+

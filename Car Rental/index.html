@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <div class="car-rental">
+            <h1>Calculate Car's Rental</h1>
+        </div>
+        <!-- input days -->
+        <div class="days-input">
+            <input type="number" id="days" placeholder="Enter Days For Rent">
+        </div>
+
+        <!-- input car type -->
+        <div class="input-car">
+            <select name="" id="selectCar">
+                <option disabled selected>
+                    Select Car Type
+                </option>
+                <option value="Economy">Economy</option>
+                <option value="Midsize">Midsize</option>
+                <option value="Luxury">Luxury</option>
+            </select>
+        </div>
+
+        <!-- button to generate car rent cost -->
+        <div class="gen-cost">
+            <button>Cost Generate </button>
+        </div>
+        <div class="rent-cost">
+            <input type="text" placeholder="Your Rent Price" id="displayCost">
+        </div>
+
+    </main>
+</body>
+<script src="./script.js"></script>
+</html>
