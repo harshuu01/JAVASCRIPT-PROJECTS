@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 20px;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+li{
+    margin: 10px;
+    font-size: 18px;
+    list-style-type: none;
+}
+button{
+    padding: 8px 10ox;
+    background-color: chartreuse;
+    font-size: 18px;
+    top: 50%;
+    gap: 100px;
+}
+button:hover{
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: 800;
+}
